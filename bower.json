@@ -1,0 +1,21 @@
+{
+  "name": "web",
+  "description": "\"web\"",
+  "main": "index.js",
+  "authors": [
+    "zyx <635340816@qq.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.6.4",
+    "bootstrap": "^3.3.7"
+  }
+}
