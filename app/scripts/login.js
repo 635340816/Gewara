@@ -8,6 +8,7 @@ $(function () {
         $("#zhuce-line").css("background-color","rgba(0, 0, 0, 0.46)");
         $("#zhuce_p").css("color","rgba(0, 0, 0, 0.46)");
         $("#part").css("visibility","visible");
+        $("#part2").css("visibility","hidden");
     });
     $("#zhuce").click(function () {
         $("#dengli_p").css("color"," rgba(0, 0, 0, 0.46)");
@@ -15,5 +16,6 @@ $(function () {
         $("#zhuce-line").css("background-color","#f36523");
         $("#zhuce_p").css("color","#f36523");
         $("#part").css("visibility","hidden");
+        $("#part2").css("visibility","visible");
     })
 })
