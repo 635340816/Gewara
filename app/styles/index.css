@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 14px;
+  font-family: "Microsoft YaHei", sans-serif;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style: none;
+}
+input {
+  border: none;
+  resize: none;
+  outline: none;
+}
+.GW_warp {
+  min-width: 300px;
+  max-width: 650px;
+  margin: 0 auto;
+  height: 2000px;
+  padding: 0;
+  position: relative;
+}
+.GW_warp .GW_header {
+  width: 100%;
+  height: 40px;
+  background-color: #f36523;
+  position: relative;
+}
+.GW_warp .GW_header .GW_logo {
+  float: left;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.GW_warp .GW_header .GW_logo a img {
+  height: 30px;
+  width: 60px;
+}
+.GW_warp .GW_header .GW_location {
+  float: left;
+  margin-left: 5px;
+  margin-top: 8px;
+}
+.GW_warp .GW_header .GW_location a {
+  color: white;
+}
+.GW_warp .GW_header .GW_location a img {
+  height: 20px;
+  width: 20px;
+}
+.GW_warp .GW_header .GW_classify {
+  float: right;
+  padding: 7px;
+}
+.GW_warp .GW_header .GW_classify img {
+  width: 20px;
+  height: 20px;
+}
+.GW_warp .GW_header .GW_classify ul {
+  background-color: #f36523;
+  min-width: 100px;
+  float: left;
+  border-radius: 0;
+  box-shadow: none;
+}
+.GW_warp .GW_header .GW_classify ul li {
+  float: left;
+}
+.GW_warp .GW_header .GW_classify ul li a {
+  color: white;
+}
+.GW_warp .qiehuan {
+  width: 100%;
+  height: 30px;
+  position: relative;
+  padding: 0;
+  margin: 0 auto;
+  border-bottom: 3px solid #737373;
+}
+.GW_warp .qiehuan ul {
+  width: 100%;
+  height: auto;
+  margin-left: 0;
+  list-style: none;
+}
+.GW_warp .qiehuan ul li {
+  width: 50%;
+  height: 30px;
+  float: left;
+  text-align: center;
+}
+.GW_warp .qiehuan ul #dianying {
+  border-bottom: 3px solid #f36523;
+  color: #f36523;
+}
+.GW_warp .pingyu {
+  width: 100%;
+  height: 230px;
+  position: relative;
+  border-bottom: 1px dotted #366;
+}
+.GW_warp .pingyu p {
+  padding: 10px;
+}
+.GW_warp .pingyu .touxiang {
+  float: left;
+  margin-left: 15px;
+}
+.GW_warp .pingyu .touxiang img {
+  height: 150px;
+  width: auto;
+}
+.GW_warp .pingyu .wengzi {
+  float: left;
+  width: auto;
+  height: auto;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.GW_warp .pingyu .wengzi strong {
+  position: absolute;
+  right: 20px;
+}
