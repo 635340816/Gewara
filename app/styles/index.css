@@ -68,6 +68,7 @@ input {
   float: left;
   border-radius: 0;
   box-shadow: none;
+  border: none;
 }
 .GW_warp .GW_header .GW_classify ul li {
   float: left;
@@ -126,4 +127,146 @@ input {
 .GW_warp .pingyu .wengzi strong {
   position: absolute;
   right: 20px;
+}
+.GW_warp .xuanze {
+  width: 100%;
+  height: 30px;
+  position: relative;
+  border-bottom: 1px solid #737373;
+  display: none;
+}
+.GW_warp .xuanze ul {
+  width: 100%;
+  height: auto;
+  margin-left: 0;
+  list-style: none;
+}
+.GW_warp .xuanze ul li {
+  width: 50%;
+  height: 30px;
+  float: left;
+  text-align: center;
+}
+.GW_warp .xuanze ul li span:hover {
+  color: #f36523;
+}
+.GW_warp .jiaonan {
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: left;
+}
+.GW_warp .jiaonan #myTab {
+  width: 40%;
+  background-color: whitesmoke;
+  height: 400px;
+}
+.GW_warp .jiaonan #myTab1 {
+  width: 40%;
+  background-color: whitesmoke;
+  height: 400px;
+}
+.GW_warp .jiaonan .nav-tabs {
+  border: none;
+}
+.GW_warp .jiaonan #myTabContent {
+  width: 60%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-y: scroll;
+  scrollbar-base-color: #666666;
+}
+.GW_warp .jiaonan #myTabContent ul {
+  width: 100%;
+  height: 400px;
+  padding: 10px;
+}
+.GW_warp .jiaonan #myTabContent ul li {
+  padding: 10px;
+  max-height: 200px;
+  border-bottom: 1px solid #d5d5d5;
+}
+.GW_warp .jiaonan #myTabContent1 {
+  width: 60%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-y: scroll;
+  scrollbar-base-color: #666666;
+}
+.GW_warp .jiaonan #myTabContent1 ul {
+  width: 100%;
+  height: 400px;
+  padding: 10px;
+}
+.GW_warp .jiaonan #myTabContent1 ul li {
+  padding: 10px;
+  max-height: 200px;
+  border-bottom: 1px solid #d5d5d5;
+}
+.GW_warp .nav-tabs > li.active > a,
+.GW_warp .nav-tabs > li.active > a:focus,
+.GW_warp .nav-tabs > li.active > a:hover {
+  color: #555;
+  cursor: default;
+  padding-right: 0;
+  margin-right: 0 ;
+  border-radius: 0;
+  background-color: #fff;
+  border: 4px solid #ffffff;
+  border-left: 3px solid #f36523;
+}
+.GW_warp .nav-tabs > li > a:hover {
+  border-color: white;
+}
+.GW_warp .zuidi {
+  position: relative;
+  width: 100%;
+  height: 20px;
+}
+.GW_warp .zuidi .zuidi1 {
+  width: auto;
+  height: 20px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #999999;
+}
+.GW_warp .bottom {
+  margin-top: 180px;
+}
+.GW_warp .line {
+  margin-top: 10px;
+  width: 95%;
+  background-color: rgba(0, 0, 0, 0.46);
+  height: 1px;
+  opacity: 0.3;
+  margin-left: 2.5%;
+}
+#yingchang2 {
+  display: none;
+  position: relative;
+  z-index: 1000;
+}
+#yingchang3 {
+  display: none;
+  position: relative;
+  z-index: 1010;
+}
+#yingchang1 {
+  display: none;
+}
+.dibu {
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1111;
+  display: none;
 }
